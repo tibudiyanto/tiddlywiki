@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "tiddlywiki wiki --listen",
+    "start": "tiddlywiki wiki --listen host=0.0.0.0",
     "build": "tiddlywiki wiki --build index"
   },
   "dependencies": {
